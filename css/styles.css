@@ -36,8 +36,8 @@ p {
 }
 
 body {
-    background: #f5f4ef;
-    color: #243b35;
+    background: #ffffff;
+    color: #222222;
     font-family: "Manrope", Arial, sans-serif;
     font-size: 16px;
 }
@@ -46,45 +46,13 @@ body {
     width: calc(100% - 40px);
     max-width: 1000px;
     margin-inline: auto;
-    padding-block: 64px 24px;
-}
-
-.intro {
-    max-width: 720px;
-    margin-bottom: 48px;
-}
-
-.eyebrow {
-    margin-bottom: 20px;
-    color: #536b55;
-    font-size: 13px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    padding-block: 32px 24px;
 }
 
 h1 {
     margin-bottom: 20px;
-    font-size: clamp(30px, 5vw, 52px);
-    line-height: 1.15;
-    letter-spacing: -0.04em;
-    overflow-wrap: anywhere;
-}
-
-.description {
-    max-width: 560px;
-    color: #56655e;
-}
-
-h2 {
-    margin-bottom: 16px;
-    font-size: 22px;
-}
-
-.table-card {
-    border: 1px solid #cfd7ce;
-    border-radius: 12px;
-    overflow: hidden;
-    background: #fff;
+    font-size: 28px;
+    line-height: 1.2;
 }
 
 table {
@@ -109,8 +77,8 @@ td {
 }
 
 thead {
-    background: #294b3e;
-    color: #fff;
+    background: #eeeeee;
+    color: #222222;
 }
 
 th:first-child {
@@ -122,32 +90,13 @@ tbody th {
 }
 
 tbody tr:nth-child(even) {
-    background: #eff3eb;
-}
-
-.note {
-    max-width: 680px;
-    margin-top: 16px;
-    color: #56655e;
-    font-size: 13px;
-}
-
-footer {
-    margin-top: 48px;
-    padding-top: 20px;
-    border-top: 1px solid #cfd7ce;
-    color: #56655e;
-    font-size: 12px;
+    background: #f5f5f5;
 }
 
 @media (max-width: 600px) {
     .container {
         width: calc(100% - 24px);
         padding-top: 32px;
-    }
-
-    .intro {
-        margin-bottom: 32px;
     }
 
     th,
